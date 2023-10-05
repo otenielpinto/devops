@@ -1,21 +1,24 @@
 # git 
 ```sh
 ## Clonando um repositorio remoto e  Atualizando localmente 
-git clone git@github.com:otenielpinto/vendizap.git   || note que https: somente qdo. copiar direto pelo navegador
+git clone git@github.com:otenielpinto/nome_rep.git   || note que https: somente qdo. copiar direto pelo navegador
 git status 
 git add .  ( adiciona todos os arquivos )
 
 ## Atualizando repositorio remotamente 
 git commit -m "Correção  "
 git remote -v 
-git remote add origin git@github.com:otenielpinto/vendizap
+git remote add origin git@github.com:otenielpinto/nome_rep
 git push -u origin master   | subir o arquivo para github 
 
 ## Forma abreviada de atualizar repositorio
 git add . && git commit -m "Commit"
 
 ## Atualizando arquivos localmente
-git pull  (overwrite local files )
+git pull  
+##O comando para forçar uma atualização em todos os arquivos de um diretório Git é o seguinte
+git pull --force origin master
+
 
 ```
 # Enviar arquivos 

@@ -45,6 +45,10 @@ which npm
 ```sh
 nvm ls
 ```
+# wsl list - Exemplo de como exportar dados ubuntu windows para backup
+```sh
+wsl --export ubuntu  c:\backup\ubuntu05-08-23.tar 
+```
 #
 ```sh
 

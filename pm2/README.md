@@ -13,7 +13,8 @@ pm2 --version
 ## Iniciar processo com PM2 na porta 3000
 ```sh
 npm run build
-pm2 start npm --name vendiza-frontend -- run start -- -p 3000
+pm2 start npm --name server_backend -- run start -- -p 3000
+
 ```
 ## comando para chamar o PM2  Cluster
 pm2 start server.js --watch --name nome_do_seu_projeto -i max
@@ -30,6 +31,10 @@ pm2 stop nome_do_seu_projeto
 
 ## comando MONIT 
 pm2 monit
+
+## comando DELETE 
+pm2 delete numero_do_server 
+
 
 ### referencias 
 https://danieldcs.com/como-usar-pm2-com-node-js-em-producao/
