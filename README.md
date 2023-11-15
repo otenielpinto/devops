@@ -4,7 +4,8 @@
 O projeto "Comandos Úteis em Linux" é uma iniciativa voltada para reunir e armazenar uma ampla variedade de comandos essenciais e práticos do sistema operacional Linux. Seu objetivo principal é fornecer uma coleção abrangente de comandos que possam auxiliar usuários, desde iniciantes até experientes, a executar tarefas com maior facilidade e eficiência no ambiente Linux
 # Linux
 
-## Ajuda em linux . Oh Gloria ! 
+## Ajuda em linux  
+Basta digitar o "man nome_comando_ajuda" 
 ```sh
 man dir
 ```
