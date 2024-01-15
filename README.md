@@ -17,6 +17,79 @@ rm -rf nome_diretorio
 ```sh
 rm *.pdf
 ```
+
+# Listar os arquivos no diretorio root 
+```sh
+ls /
+```
+
+# Listar arquivos no diretorio pai 
+```sh
+ls ..
+```
+
+# Listar arquivos no diretorio home do usuário ( /home/user)
+```sh
+ls ~
+```
+# listar somente diretorios
+```sh
+ls -d */
+```
+
+# listar arquivos com subdiretorios
+```sh
+ls *
+```
+
+# Listar arquivos recursivamente 
+```sh
+ls -R
+```
+
+# Listar arquivos e seus tamanhos
+```sh
+ls -s
+```
+# listar arquivos em formato longo
+```sh
+ls -l
+```
+
+# Listar arquivos em formato longo com tamanhos de arquivo legiveis
+```sh
+ls -lh
+```
+
+
+# Listar arquivos incluindo arquivos ocultos 
+```sh
+ls -a
+```
+
+# Listar arquivos em formato longo incluindo arquivos ocultos 
+```sh
+ls -l -a    
+ls -a -l 
+ls -la
+ls -al
+```
+
+# Listar arquivos e ordena-los por data e hora
+```sh
+ls -t
+ls -tr
+```
+
+# Listar arquivos e gear o resultado em um arquivo
+
+```sh
+ls > output.txt
+cat output.txt
+```
+
+
+
 ## lista todas as portas em aberto linux
 ```sh
 netstat -tunl
@@ -53,4 +126,10 @@ wsl --export ubuntu  c:\backup\ubuntu05-08-23.tar
 #
 ```sh
 
+```
+
+
+# Para mais consulte 
+```sh
+ man ls 
 ```
