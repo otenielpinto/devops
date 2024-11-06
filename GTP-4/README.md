@@ -315,21 +315,3 @@ Prompt: "Apresente desafios ou obstáculos relacionados a [tópico ou habilidade
 ```sh
 
 ```
-
-#
-
-```sh
-
-```
-
-#
-
-```sh
-
-```
-
-#
-
-```sh
-
-```
