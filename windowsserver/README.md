@@ -43,6 +43,12 @@ Se o servidor foi adquirido via **Volume Licensing Center (VLSC)**, **CSP** ou c
 
 O comando `slmgr /rearm` **reinicia o contador do período de carência (grace period)** de ativação do Windows.
 
+### Executar o comando
+
+```bash
+slmgr /rearm
+```
+
 ### O que ele faz especificamente:
 
 1. **Reseta o timer de ativação**: Restaura a contagem do período de avaliação/carência para o valor inicial (geralmente 180 dias para trials, ou o período padrão de ativação).
